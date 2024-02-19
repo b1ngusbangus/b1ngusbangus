@@ -1,0 +1,79 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #484848;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF5A5F;
+    height: 80px;
+}
+
+#logo {
+    height: 80px;
+}
+
+/* center the divs */
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 38px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+section {
+    padding: 90px;
+    border: 1px solid #B2BEB5;
+    margin-bottom: 60px;
+}
+
+section img {
+    width: 500px
+}
+
+/* positioning of hyperlinks */
+nav {
+    float: right;
+}
+
+/* remove default bullet points: nav ul = "apply css to <ul> inside <nav>" */ 
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+
+/* each individual hyperlink (total of 3 in this case) */ 
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+/* hyperlink display */
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* make hyperlink text underline when hovering */
+a:hover {
+    text-decoration: underline;
+}
