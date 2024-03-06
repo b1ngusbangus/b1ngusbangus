@@ -1,0 +1,37 @@
+header {
+    background-color: #291F1D;
+    height: 80px;
+}
+
+#image-banner {
+    background-image: url('../img/sodoiwall.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* each individual hyperlink (total of 2 in this case) */
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 80px;
+}
+
+/* hyperlink display */
+nav a {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* make hyperlink text underline when hovering */
+a {
+    font-family: 'Cinzel';
+    font-weight: bolder;
+    color: #FEFEFA;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #fefefada;
+}
