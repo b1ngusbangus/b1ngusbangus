@@ -75,6 +75,7 @@ a:hover {
 
 .about--description--header {
     font-family: 'Katibeh';
+    text-align: center;
     font-size: 50px;
     color: #291F1D;
     display: flex;
@@ -87,6 +88,7 @@ a:hover {
     padding-bottom: 90px;
     padding-left: 100px;
     padding-right: 100px;
+    text-align: center;
 }
 
 .about--images {
@@ -143,4 +145,26 @@ a:hover {
 
 .menu--link:hover {
     text-decoration: none;
+}
+
+.sodoi-deets {
+    height: 900px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #291F1D;
+    font-family: 'Source Serif Pro';
+    color: #FEFEFA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.sodoi-deets--times {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
