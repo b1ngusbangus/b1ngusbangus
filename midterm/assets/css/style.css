@@ -106,22 +106,27 @@ a:hover {
 
 .img1 img {
     border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
 .img2 img {
     border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
 }
 
 .img3 img {
     border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
 }
 
 .img4 img {
     border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
 }
 
 .img5 img {
     border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
 }
 
 .first-heart {
