@@ -54,12 +54,14 @@ nav a {
     font-family: 'Cinzel';
     font-size: 18px;
     color: #FEFEFA;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
 }
 
 a:hover {
-    color: #fefefada;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    opacity: 90%;
     transition: 0.3s;
 }
 
@@ -99,6 +101,7 @@ a:hover {
     align-content: center;
     gap: 2em;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .img1 img {
@@ -126,10 +129,12 @@ a:hover {
     justify-content: center;
     align-content: center;
     padding-bottom: 110px;
+    padding-top: 20px;
 }
 
 .menu--link {
     padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -140,11 +145,15 @@ a:hover {
     font-weight: bold;
     font-size: 50px;
     text-decoration: none;
+    text-underline-offset: 0.4em;
     color: #291F1D;
 }
 
 .menu--link:hover {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+    transition: 0.3s;
+    color: #291F1D;
 }
 
 .sodoi-deets {
