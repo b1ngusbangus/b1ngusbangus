@@ -54,12 +54,15 @@ nav a {
     font-family: 'Cinzel';
     font-size: 18px;
     color: #FEFEFA;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+
 }
 
 a:hover {
     color: #fefefada;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
     transition: 0.3s;
 }
 
@@ -70,21 +73,27 @@ a:hover {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-bottom: 110px;
+    padding-top: 100px;
+    padding-bottom: 170px;
 }
 
 .menu-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: 400px 400px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 80px;
     padding-left: 550px;
     padding-right: 550px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     text-align: center;
     color: #291F1D;
+}
+
+.menu--icon {
+    padding-top: 90px;
 }
 
 .menu--description h2 {
@@ -101,10 +110,27 @@ a:hover {
     font-family: 'Source Serif Pro';
     font-size: 18px;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu--numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200px;
+}
+
+.menu--numbers--weight {
+    padding-right: 20px;
+}
+
+.menu--numbers--price {
+    padding-left: 20px;
 }
 
 .menu1 {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -128,6 +154,26 @@ a:hover {
     padding-bottom: 60px;
 }
 
+#memory-of-arash {
+    padding-right: 100px;
+}
+
+#open-your-heart {
+    padding-left: 100px;
+}
+
+#my-dream-my-coffee {
+    padding-right: 100px;
+}
+
+#rh-espresso {
+    padding-left: 100px;
+}
+
+#decaf-guatemala {
+    align-self: flex-end;
+}
+
 .sodoi-deets {
     height: 900px;
     padding-top: 5px;
@@ -142,10 +188,26 @@ a:hover {
     align-content: center;
 }
 
+.sodoi-deets--week {
+    padding-right: 20px;
+}
+
+.sodoi-deets--hours {
+    padding-left: 20px;
+}
+
+.sodoi-deets--location {
+    padding-bottom: 40px;
+}
+
 .sodoi-deets--times {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+
+.sodoi-deets--contact {
+    padding-top: 40px;
 }
