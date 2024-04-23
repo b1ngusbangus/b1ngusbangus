@@ -125,6 +125,7 @@ a:hover {
     padding-top: 30px;
 }
 
+/* ADJUST MENU LINK LOCATION */
 .menu--link {
     padding-top: 90px;
     padding-bottom: 20px;
@@ -133,6 +134,7 @@ a:hover {
     justify-content: center;
 }
 
+/* ADJUST MENU LINK TEXT */
 .menu--link h2 {
     font-family: 'Katibeh';
     font-weight: bold;
