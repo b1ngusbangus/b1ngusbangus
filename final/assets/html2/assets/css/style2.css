@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Trispace);
+
+html,
+body {
+    background-color: #1E1A22;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trispace';
+    color: #F6F7EB;
+}
+
+
+/* TOP HALF PORTION */
+
+.top-half-page {
+    padding-top: 65px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-half-page--text {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+#song-title {
+    font-size: 20px;
+}
+
+#profile--name {
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+#top-half-page--img img {
+    border-radius: 7%;
+}
+
+#profile--pic img {
+    border-radius: 100%;
+}
+
+#profile--name {
+    font-family: 'Trispace';
+    font-weight: bold;
+    text-decoration: none;
+    color: #F6F7EB;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #F6F7EB;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+/* LINE SEPARATOR */
+.line-separator {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* BOTTOM HALF PORTION */
+
+.bottom-half-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.song {
+    display: flex;
+}
+
+.song--artist {
+    color: #707070;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.song--artitle {
+    padding-left: 45px;
+}
+
+/* FLEXBOX IT "column1" */
+
+.songs--column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding-left: 150px;
+}
+
+.songs--column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding-right: 150px;
+}
+
